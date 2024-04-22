@@ -4,7 +4,7 @@ export default function Article() {
   return (
     <div>
         <h1 className='sm:text-4xl text-2xl font-bold my-6 text-gray-900'>
-            This is Article one
+            This is Article. Need to Check.
         </h1>
     </div>
   )
