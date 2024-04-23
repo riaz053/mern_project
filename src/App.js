@@ -12,10 +12,10 @@ function App() {
       <Navbar/>
       <div className='max-w-screen-md mx-auto pt-20'>
         <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/article/:name" element={<Article />} />
-        <Route path="/article-list" element={<Articlelist />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/article/:name" element={<Article />} />
+          <Route path="/article-list" element={<Articlelist />} />
         </Routes>
       </div>
     </Router>
